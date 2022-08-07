@@ -1,0 +1,104 @@
+.settings{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 528px;
+}
+
+.settings-right{
+    height: inherit;
+    padding-left: 50px ;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.settings-img{
+    height: inherit;
+}
+
+.settings-left{
+    box-sizing: border-box;
+    height: inherit;
+    padding: 100px 100px 100px 100px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.settings-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.settings-form{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.settings-form>div{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settings-inp{
+    margin: 10px;
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid teal;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+}
+
+.settings-inp:focus{
+    outline: none;
+}
+
+.settings-logo{
+    height: 35px;
+    width: 35px;
+}
+
+.settings-btn{
+    margin: 25px 23px 25px 13px;
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.settings-btn:hover{
+    box-shadow: 0 0 30px 3px rgb(176, 176, 176);
+    transform: scale(1.05);   
+}
+
+.settings-delete{
+    flex: 1;
+    width: 250px;
+    background-color: rgb(165, 69, 42);
+}
+.settings-submit{
+    flex: 1;
+    background-color: teal;
+}
+.settings-error{
+    color: red;
+}
+
+@media all and (max-width:700px){
+    .settings-right{display: none;}
+    .settings-input{
+        display: flex;
+        flex-direction: column;
+    }
+}

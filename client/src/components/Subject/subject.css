@@ -1,0 +1,39 @@
+.subject{
+    padding: 20px;
+    text-align: center;
+    color: #444;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subject:hover{
+    background :rgba(240, 240, 240, 0.789);
+}
+
+.subject-title{
+    align-items: flex-start;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.subject-detail{
+    width: 100px;
+    padding: 12px;
+    font-size: 14px;
+    background-color: rgb(0, 255, 162);
+    border: none;
+    border-radius: 5px;
+}
+
+.subject-detail:hover{
+    cursor: pointer;
+    background-color: rgb(0, 255, 120);
+}
+
+
+@media all and (max-width:700px){
+    .subject{
+        width: 300px;
+        margin-left: -70px;
+    }
+}
