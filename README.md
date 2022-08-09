@@ -27,7 +27,7 @@ In this application the user can login into his account and upload his marks for
 
 ### To run -> 
 * #### clone the entire repo
-* #### make environment file in the api folder with the following keys' values:
+* #### make environment file in with the following keys' values:
 ```
 MONGO_URL = "path to mongodb url"
 ```
