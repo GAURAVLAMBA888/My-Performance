@@ -71,13 +71,13 @@ export default function ScoreCard() {
             <div className="scorecard-header">
                 <span className="scorecard-title">{subjectTitle}</span>
                 <button className="scorecard-update" onClick={openUpdater}>
-                    Add Marks
+                    Add Data
                 </button>
                 <button
                     className="scorecard-update scorecard-dm"
                     onClick={openDeleter}
                 >
-                    Delete Marks
+                    Delete Data
                 </button>
                 <button className="scorecard-delete" onClick={handleDeleteSub}>
                     Delete Subject

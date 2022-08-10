@@ -26,7 +26,7 @@ export default function Marksdeleter(props) {
             <div className="marksdeleter">
                 <input
                     type="number"
-                    placeholder="Enter the index of x-axis of marks"
+                    placeholder="Enter the index of x-axis of Data"
                     required
                     className="marksdeleter-inp"
                     ref={indexRef}

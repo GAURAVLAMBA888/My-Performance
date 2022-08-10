@@ -27,7 +27,7 @@ export default function MarksUpdater(props) {
             <div className="marksupdater">
                 <input
                     type="number"
-                    placeholder="Enter marks %"
+                    placeholder="Enter Data"
                     required
                     className="marksupdater-inp"
                     ref={markRef}

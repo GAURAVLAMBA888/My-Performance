@@ -13,7 +13,7 @@ export default function AboutUs() {
     <div className='aboutus'>
         <div className='aboutus-left' data-aos="zoom-in">
                 <span className='aboutus-left-head'>About Us</span>
-                <p className='aboutus-left-para'>This is a platform where you can submit your marks for different subject and see your performance with respect to the previous tests.
+                <p className='aboutus-left-para'>This is a platform where you can submit your Data for different subject and see your the change visually with respect to the previous data.
                 </p>
         </div>
         <div className='aboutus-right' data-aos="zoom-in">
