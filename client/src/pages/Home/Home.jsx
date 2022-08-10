@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Subject from "../../components/Subject/Subject";
 import AddSubject from "../../components/AddSubject/AddSubject";
 import "./home.css";
