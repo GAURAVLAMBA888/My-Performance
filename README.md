@@ -2,7 +2,7 @@
 This is a Web Appplication based on MERN Stack. 
 
 ## User Manual
-In this application the user can login into his account and upload his marks for different subjects.He may store any other kind of data and a visual representation of data will be show using graph.
+In this application the user can login into his account and upload his data for different subjects.The data can be marks,income,spendings or sales etc depending on the requirement.All the data for different subjects will be visually represented using grpah.
 
 ### Live Demo
 [Click here to see it live](https://my-performance.vercel.app/)
