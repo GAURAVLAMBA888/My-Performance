@@ -5,7 +5,7 @@ This is a Web Appplication based on MERN Stack.
 In this application the user can login into his account and upload his data for different subjects.The data can be marks,income,spendings or sales etc depending on the requirement.All the data for different subjects will be visually represented using graph.
 
 ### Live Demo
-[Click here to see it live](https://my-performance.vercel.app/)
+[Click here to see it live](https://myperformance.vercel.app/)
 
 
 ## Demo In PC
@@ -20,10 +20,6 @@ In this application the user can login into his account and upload his data for 
 ## Demo in Mobile
 ![](/demo/Mobile-Index.png)
 ![](/demo/Mobile-Login.png)
-![](/demo/Mobile-register.png)
-![](/demo/Mobile-home.png)
-![](/demo/Mobile-ScoreCard.png)
-![](/demo/Mobile-Settings.png)
 
 ### To run -> 
 * #### clone the entire repo
@@ -31,5 +27,6 @@ In this application the user can login into his account and upload his data for 
 ```
 MONGO_URL = "path to mongodb url"
 ```
+* #### Add node_modules
 * #### Now open terminal
 * #### write npm start
