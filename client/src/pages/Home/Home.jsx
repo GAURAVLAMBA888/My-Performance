@@ -23,7 +23,7 @@ export default function Home() {
 			const res = await axios.get(`/subject${loc.search}`);
 			setSubs(res.data);
 		};
-		fetchSubjects();
+        fetchSubjects();
 	}, [loc.search])
 	
     return (
